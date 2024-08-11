@@ -1,0 +1,87 @@
+/* Features.css */
+
+#features {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#features .card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#features .card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#features .card:hover .icon-wrapper {
+  color: #ffffff; 
+}
+
+#features .card:hover .card-title,
+#features .card:hover .card-text {
+  color: #ffffff; 
+}
+
+#features .card::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #3fbbc0;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+#features .card:hover::before {
+  transform: translateY(0);
+}
+
+#features .card-body {
+  position: relative;
+  padding: 30px;
+  z-index: 1;
+}
+
+#features .icon-wrapper {
+  font-size: 3rem;
+  color: #3fbbc0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#features .feature-icon {
+  width: 100%;
+}
+
+#features .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+#features .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+#features h2 {
+  font-size: 2rem;
+  font-weight: 630;
+  margin-bottom: 40px;
+  color: #343a40;
+}
+
+@media (max-width: 768px) {
+  #features .card {
+    margin-bottom: 20px;
+  }
+}

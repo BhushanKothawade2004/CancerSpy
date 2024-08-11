@@ -1,0 +1,41 @@
+#departments {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+#departments h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 30px;
+}
+
+#departments p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+  color: #3fbbc0;
+}
+
+.details h3 {
+  font-size: 1.75rem;
+  color: #343a40;
+}
+
+.details .fst-italic {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

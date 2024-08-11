@@ -1,0 +1,25 @@
+#faq {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+#faq h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 30px;
+}
+
+#faq .accordion-button {
+  font-size: 1.2rem;
+  color: #343a40;
+  background-color: #f8f9fa;
+}
+
+#faq .accordion-button:not(.collapsed) {
+  color: #007bff;
+  background-color: #e9ecef;
+}
+
+#faq .accordion-body {
+  color: #6c757d;
+}

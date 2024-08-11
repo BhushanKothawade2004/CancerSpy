@@ -1,0 +1,33 @@
+#appointment {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+  }
+  
+  #appointment h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  #appointment .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #appointment .form-control {
+    border-radius: 0;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  #appointment .btn-primary {
+    background-color: #3fbbc0;
+    border-color: #3fbbc0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #appointment .btn-primary:hover {
+    background-color: #3fbbc0;
+  }
+  

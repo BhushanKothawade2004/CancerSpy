@@ -1,0 +1,20 @@
+#about {
+  background-color: #e9ecef;
+  padding: 60px 0;
+}
+
+#about img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: Black;
+}
+
+#about p {
+  color: #6c757d;
+  line-height: 1.7;
+}

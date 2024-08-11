@@ -1,0 +1,35 @@
+#doctors {
+    padding: 60px 0;
+    background-color: #e9ecef;
+  }
+  
+  #doctors h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  #doctors .card {
+    border: none;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  #doctors .card-img-top {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #doctors .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-top: 15px;
+  }
+  
+  #doctors .card-text {
+    color: #6c757d;
+  }
+  

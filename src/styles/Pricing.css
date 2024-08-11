@@ -1,0 +1,68 @@
+#pricing {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#pricing h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 30px;
+}
+
+#pricing .pricing-card {
+  border: none;
+  transition: all 0.3s ease;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#pricing .pricing-card:hover {
+  background-color: #e9ecef;
+  transform: translateY(-10px);
+}
+
+#pricing .card-title {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+#pricing .card-text {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+#pricing .list-unstyled {
+  margin-bottom: 20px;
+  color: #6c757d;
+}
+
+#pricing .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+#pricing .badge {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #3fbbc0;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  border-radius: 5px;
+}
+
+#pricing .popular-plan {
+  background-color: #e3f2fd;
+}
+
+#pricing .btn-primary {
+  background-color: #3fbbc0;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#pricing .btn-primary:hover {
+  background-color: #3399aa;
+}
